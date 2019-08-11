@@ -1,0 +1,22 @@
+{
+  "name": "dev.to-daily-challenge",
+  "version": "1.0.0",
+  "description": "Variety of daily challenges from https://dev.to/thepracticaldev/daily-challenge-1-string-peeler-4nep written in Node.js/JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "JASMINE_CONFIG_PATH=src/spec/support/jasmine.json node node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipjakov/dev.to-daily-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipjakov/dev.to-daily-challenge/issues"
+  },
+  "homepage": "https://github.com/filipjakov/dev.to-daily-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  }
+}
